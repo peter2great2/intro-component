@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/bg-intro-desktop.png");
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 100%, 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+p {
+  font-size: 18px;
+}
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .left {
+    padding: 20px;
+  }
+}
