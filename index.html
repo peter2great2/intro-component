@@ -45,25 +45,30 @@
                   type="text"
                   class="form-control p-3"
                   name=""
-                  id=""
+                  id="first-name"
                   aria-describedby="helpId"
                   placeholder="First Name"
                 />
-                <small class="text-danger float-end visually-hidden"
+                <small
+                  class="text-danger float-end"
+                  id="first-name-error"
+                  style="display: none"
                   >First Name can not be empty</small
                 >
               </div>
               <div class="mb-3">
                 <input
-                  id="first-name"
+                  id="last-name"
                   type="text"
                   class="form-control p-3"
-                  name=""
-                  id=""
+                  name="last name"
                   aria-describedby="helpId"
                   placeholder="Last Name"
                 />
-                <small class="text-danger float-end visually-hidden"
+                <small
+                  class="text-danger float-end"
+                  id="last-name-error"
+                  style="display: none"
                   >Last Name can not be empty</small
                 >
               </div>
@@ -72,11 +77,11 @@
                   type="email"
                   class="form-control p-3"
                   name=""
-                  id=""
+                  id="email-error"
                   aria-describedby="helpId"
                   placeholder="Email Address"
                 />
-                <small class="text-danger float-end visually-hidden"
+                <small class="text-danger float-end" style="display: none"
                   >Looks like this is not an email</small
                 >
               </div>
@@ -94,7 +99,7 @@
                 <button
                   type="button"
                   name=""
-                  id=""
+                  id="submit"
                   class="btn btn-success"
                   onclick="btnClicked()"
                 >
